@@ -2,7 +2,7 @@ body {
   text-align: center;
   margin: 10;
   font-family: Verdana, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 34px;
 }
 
 .container {
@@ -31,4 +31,16 @@ body {
 /*Что произойдёт, когда мы наведём курсор на любую задачу из списка*/
 .todo-item:hover {
   background-color: lightblue;
+}
+.form-btn {
+  width: 75%;
+  height: 50px;
+  border: 1px solid;
+  background:#000000;
+  border-radius: 25px;
+  font-size:x-large;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  cursor: pointer;
+  outline: none;
 }
